@@ -7,8 +7,8 @@ const MyAccount = () => {
         <Account>
             <div className="order__history__container">
                 <div className="order__history">
-                    <div className="order__history__header">Order History</div>
-                    <div className="order__history__detail">You have not place any orders yet</div>
+                    <div className="order__history__header">Customer History</div>
+                    <div className="order__history__detail">You have not placed any queries</div>
                 </div>
             </div>
             <div className="account__details__container">

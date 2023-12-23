@@ -19,10 +19,10 @@ const Footer = () => {
                         </div>
                         <ul className="fotter__help__links">
                             <li className="help__link">
-                                <a href="/"> Shipping</a>
+                                <a href="/"> Lost items</a>
                             </li>
                             <li className="help__link">
-                                <a href="/">Refund</a>
+                                <a href="/">Get back</a>
                             </li>
                             <li className="help__link">
                                 <a href="/">FAQ</a>
@@ -73,7 +73,7 @@ const Footer = () => {
                 </div>
                 <div className="fotter__copyright__container">
                     <ul className='nav'>
-                        <li className="footer__copyright">©2022 Shema Ltd. |</li>
+                        <li className="footer__copyright">| lostXperience |</li>
                         <li className="footer__terms__condition"> | Terms & Condition |</li>
                         <li className="footer__privacy__policy">| Privacy Policy</li>
                     </ul>

@@ -31,7 +31,7 @@ const ManageAccount = () => {
                         <div className="delete__account__header">
                             Delete account
                         </div>
-                        <div className="delete__account__prompt">Do you want to cancel subscription?</div>
+                        <div className="delete__account__prompt">Do you want to get out</div>
                         <div className="delete__account__button__container">
                             <button className="delete__account__button" >Delete Account</button>
                         </div>

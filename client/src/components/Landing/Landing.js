@@ -11,7 +11,7 @@ const Landing = () => {
                     <h3 className="landing__header__discount">LIST IT ! FIND IT!</h3>
                     <h1 className="landing__header__main">Discover the Easy Way to Find Your Lost Belongings</h1>
                     <Link to="/shop">
-                        <Button variant='outlined' sx={[ {width: '190px', height: '50px', borderRadius: '20px' , fontWeight: '700', backgroundColor: 'none', borderColor: 'black', color: 'black' }, {'&:hover': {  backgroundColor: "black" , color: "#FFE26E", borderColor: 'black'}}]}>SHOP NOW</Button>
+                        <Button variant='outlined' sx={[ {width: '190px', height: '50px', borderRadius: '20px' , fontWeight: '700', backgroundColor: 'none', borderColor: 'black', color: 'black' }, {'&:hover': {  backgroundColor: "black" , color: "#FFE26E", borderColor: 'black'}}]}>FIND NOW</Button>
                     </Link>
                 </div>
             </div>

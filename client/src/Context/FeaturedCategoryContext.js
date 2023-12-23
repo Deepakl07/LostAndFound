@@ -6,19 +6,19 @@ import kidsFashion from '../asset/Products/cloth/kids/kids-2.jpeg'
 
 export const FeatureCategoryContext = createContext([
     {
-        name: "Men's Fashion",
+        name: "Lost items",
         image: menFashion,
         url: '/category/men',
         id: 1
     },
     {
-        name: "Women's Fashion",
+        name: "Lost items",
         image: womenFashion,
         url: '/category/women',
         id: 2
     },
     {
-        name: "Kids Fashion",
+        name: "Lost items",
         image: kidsFashion,
         url: '/category/kids',
         id: 3

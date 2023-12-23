@@ -68,12 +68,12 @@ const Cart = () => {
                 >
                     <Box sx={style}>
                     <div className="cart__header">
-                        <h2>Your Cart</h2>
+                        <h2>Your lost items</h2>
                     </div>
                     <div className="cart__items__container">
                         <div className="cartItems">
                             {cartItems.items.length===0? 
-                                <div className="cart__empty"> Empty cart!</div> : 
+                                <div className="cart__empty"> Empty!</div> : 
                                 <div className="shop__cart__items">
                                     {cartItems.items.map((item) => <CartCard key={item._id} item={item}/>)}
                                 </div>
@@ -81,8 +81,8 @@ const Cart = () => {
                             {cartItems.items.length > 0 &&
                                 <div className="options">
                                     <div className="total__amount">
-                                        <div className="total__amount__label">Total Amount:</div>
-                                        <div className="total__amount__value">${cartItems.totalAmount}.00</div>
+                                        <div className="total__amount__label"></div>
+                                        <div className="total__amount__value"></div>
                                     </div>
                                     <div className="checkout">
                                         <Button variant="outlined" onClick={handleCheckout}>Checkout</Button>
